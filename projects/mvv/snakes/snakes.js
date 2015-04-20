@@ -23,10 +23,11 @@ var lineFunction = d3.svg.line()
     .y(function(d) { return d.y; })
     .interpolate("linear");
 
-var stopsNumber = 50;
-var snakesNumber = 3;
-var snakes = [];
 
+var stopsNumber = 20;
+var snakesNumber = 1;
+var snakes = [];
+var colors = ["#e74c3c", "#2ecc71", "#f1c40f"];
 
 for(var i = 0; i < snakesNumber; i++) {
     var stops = [];
@@ -39,13 +40,13 @@ for(var i = 0; i < snakesNumber; i++) {
     }
 
     snakes.push({
-        color: "#fff",
+        color: colors[i],
         stops: stops
     });
 }
 
 var time = 0;
-var duration = n;
+var duration = stopsNumber;
 function update() {
 
     time = (time +1) % duration;
@@ -56,8 +57,13 @@ function draw() {
 
     trails.enter()
         .append("path")
+        .style("stroke", function(d) {
+            return d.color;
+        })
+        .style("fill", "none")
         .attr("d", function(d) {
-           return lineFunction(d.stops)
+           return lineFunction(d.stops);
         });
 }
 
+draw();
