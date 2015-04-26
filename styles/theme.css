@@ -45,6 +45,7 @@ a:hover {
 .blocks {
     margin-top: 20px;
     display: flex;
+    display: -webkit-flex;     /* NEW - Chrome */
     -webkit-justify-content: flex-start;
     -webkit-flex-wrap: wrap;
 }
