@@ -5,8 +5,6 @@
 
 var svg = d3.select(".vis-block");
 
-//console.log(svg.node().clientWidth);
-
 var size = {
     width: svg.node().clientWidth,
     height: svg.node().clientHeight
