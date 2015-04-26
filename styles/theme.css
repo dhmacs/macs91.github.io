@@ -51,29 +51,46 @@ a:hover {
 }
 
 .block {
-    /*
-    float: left;
-    width: 200px;
-    height: 100px;
-    padding: 10px;*/
-    /*flex: 1;*/
-    width: 200px;
-    height: 100px;
-    padding: 10px;
+    width: 240px;
+    height: 150px;
     margin-bottom: 10px;
     margin-right: 10px;
+    position: relative;
+    overflow: hidden;
 
     background-color: rgba(255,255,255, 0.4);
     border: 1px solid #bdc3c7;
     border-bottom: 2px solid #bdc3c7;
 }
 
-.block > span {
+.block > .block-overlay {
     font-weight: 400;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    top: 0;
+    left: 0;
+    z-index: 2;
 }
 
+.block > .block-overlay:hover {
+    background-color: rgba(255,255,255,0.0);
+}
 
+.block > img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 
+.block > .block-overlay > p {
+    color: #fff;
+    padding: 10px;
+    text-shadow: 1px 1px rgba(0,0,0,0.8);
+}
 
 
 
