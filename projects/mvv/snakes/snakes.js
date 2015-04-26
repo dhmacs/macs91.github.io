@@ -53,8 +53,9 @@ function generateNewSnakes() {
 
 var time = 0;
 var duration = stopsNumber;
-var dt = 0.01;
+var dt = 0.005;
 var headX, headY;
+var precision = 10;
 
 // Initial data
 generateNewSnakes();
@@ -67,7 +68,7 @@ function update() {
     }
 
     time = (time + dt) % duration;
-    var headPoint = getSnakeHead(lineFunction(snakes[0].stops), 10, time/duration);
+    var headPoint = getSnakeHead(lineFunction(snakes[0].stops), precision, time/duration);
     headX = headPoint.x;
     headY = headPoint.y;
     markNearby(landmarks, headPoint.x, headPoint.y, 80);
@@ -121,7 +122,7 @@ function drawSnakes() {
 
     var trailSegments = gTrails.selectAll(".segment").data(function(d) {
         var trailPerc = time / duration;
-        var pathSample = sample(lineFunction(d.stops), 10);
+        var pathSample = sample(lineFunction(d.stops), precision);
         pathSample = pathSample.map(function(a) {
             a.t = a.t / trailPerc;
 
