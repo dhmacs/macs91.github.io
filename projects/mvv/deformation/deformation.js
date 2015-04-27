@@ -218,10 +218,10 @@ var projection = equirectangularFisheye()
     .translate([size.width / 2, size.height / 2])
     .precision(0);
 
-var geoLandmarks = d3.range(600).map(function(n) {
+var geoLandmarks = d3.range(1000).map(function(n) {
     return {
         lat: geoCanvas.center.lat + (Math.random() - 0.5) * (geoCanvas.height * (0.3)),
-        lon: geoCanvas.center.lon + (Math.random() - 0.5) * (geoCanvas.width * (0.3)),
+        lon: geoCanvas.center.lon + (Math.random() - 0.5) * (geoCanvas.width * (0.2)),
         color: randomColor(),
         letter: n
     };
@@ -273,15 +273,11 @@ function update() {
             [snakeRoute[lastStop +1].lon, snakeRoute[lastStop +1].lat])(delta);
 
 
-    //console.log(currentPosition);
-    //currentPosition.lon = currentPosition[0];
-    //currentPosition.lat = currentPosition[1];
 
     var tmpProjection = projection(currentPosition);//[currentPosition.lon, currentPosition.lat]);
     focus.x = tmpProjection[0];
     focus.y = tmpProjection[1];
 
-    //updateFocus(focus.x, focus.y);
 
     projection
         .focus(currentPosition)
