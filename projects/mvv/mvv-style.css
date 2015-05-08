@@ -3,3 +3,8 @@
     -webkit-flex: 1;
     height: 500px;
 }
+
+.description {
+    margin-top: 20px;
+    color: #525252;
+}

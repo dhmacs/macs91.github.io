@@ -89,7 +89,7 @@ a:hover {
 .block > .block-overlay > p {
     color: #fff;
     padding: 10px;
-    text-shadow: 1px 1px rgba(0,0,0,0.8);
+    text-shadow: 1px 1px rgba(0,0,0,0.98);
 }
 
 
