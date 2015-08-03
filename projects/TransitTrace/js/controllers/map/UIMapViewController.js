@@ -74,8 +74,14 @@ function UIMapViewController() {
             layer = new WalkingWaveSceneController();
             _director.addScene(layer, 0, "walk");
 
+            layer = new WalkIconSceneController();
+            _director.addScene(layer, 1, "walkIcon");
+
+            layer = new WalkTimeSceneController();
+            _director.addScene(layer, 3, "walkTime");
+
             layer = new LocationSceneController();
-            _director.addScene(layer, 1, "location");
+            _director.addScene(layer, 4, "location");
 
             layer = new PathSceneController();
             _director.addScene(layer, 6, "paths");
