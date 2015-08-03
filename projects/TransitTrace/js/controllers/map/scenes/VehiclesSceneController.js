@@ -146,14 +146,14 @@ function VehiclesSceneController() {
                 }
 
                 if(trip["hop"] == 0) {
-                    opacities[vehicleIndex] = 0.2;
+                    opacities[vehicleIndex] = 0.4;
                 } else {
                     grayShade = new THREE.Color();
                     grayShade.setStyle("#969696");
 
                     vehicleColor.lerp(grayShade, 0.5);
 
-                    opacities[vehicleIndex] = 0.2;
+                    opacities[vehicleIndex] = 0.4;
                 }
 
                 colors[vehicleIndex * 3] = vehicleColor.r;

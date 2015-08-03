@@ -16,7 +16,7 @@ function LocationSceneController() {
 
 
     // UI
-    var _locationSize = 12 * window.devicePixelRatio;
+    var _locationSize = 8 * window.devicePixelRatio;
 
     /*------------------ PUBLIC METHODS ------------------*/
     /**

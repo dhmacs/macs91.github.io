@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcb233c-452d-4169-9e07-461277e21ab3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="macs91.github.io.iws" />
@@ -23,26 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIAnimationTimeViewController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44297352">
-              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIMapViewController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
+      <file leaf-file-name="LocationSceneController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.27494907">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VehiclesSceneController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+              <caret line="148" column="49" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -102,6 +94,9 @@
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapCanvasViewController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" />
       </list>
     </option>
   </component>
@@ -608,7 +603,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438606566870</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Updating vis to latest version">
+      <created>1438606660727</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1438606660727</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -661,55 +662,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/theme.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="40" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="52" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/snakes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/deformation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="100" selection-start-line="34" selection-start-column="100" selection-end-line="34" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/force/force.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="7" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/deformation/deformation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="463" column="0" selection-start-line="463" selection-start-column="0" selection-end-line="466" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/force/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/mvv/force/force.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -979,26 +931,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4735234">
           <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1011,10 +955,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js">
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UITransitViewController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44297352">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/UIWindowController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/view/UICanvasView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="33" selection-start-line="70" selection-start-column="33" selection-end-line="70" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapCanvasViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48065174">
+          <caret line="46" column="6" selection-start-line="46" selection-start-column="6" selection-end-line="46" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="148" column="49" selection-start-line="148" selection-start-column="49" selection-end-line="148" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27494907">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
