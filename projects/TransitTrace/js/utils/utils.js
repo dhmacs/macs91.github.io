@@ -103,6 +103,22 @@ Utils.gl.getLabelMesh = function(text, color) {
     return mesh;
 };
 
+Utils.gl.getTimeLabelMesh = function(text, color) {
+    var textGeometry = new THREE.TextGeometry(text, {
+        font: 'helvetiker',
+        weight: 'bold',
+        style: 'normal',
+        size: 9
+    });
+
+    var material = new THREE.MeshBasicMaterial({color: color});
+    var mesh = new THREE.Mesh(textGeometry, material);
+
+    mesh.rotation.x = Math.PI;
+
+    return mesh;
+};
+
 Utils.gl.positionTextMesh = function(mesh, x, y) {
     var textGeometry = mesh.geometry;
     textGeometry.computeBoundingBox();
