@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcb233c-452d-4169-9e07-461277e21ab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkIconSceneController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/TransitTrace/fonts/helvetiker_bold.typeface.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/index.html" afterPath="$PROJECT_DIR$/projects/TransitTrace/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -38,20 +34,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.375">
-              <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.4070981">
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIMapViewController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIMapViewController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39714867">
+            <state vertical-scroll-proportion="0.0">
               <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
               <folding />
             </state>
@@ -93,8 +89,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/models/CTAModel.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js" />
-        <option value="$PROJECT_DIR$/projects/TransitTrace/index.html" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/index.html" />
       </list>
     </option>
   </component>
@@ -577,7 +573,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438605186820</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Updating vis to latest version">
+      <created>1438605836524</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1438605836524</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -622,7 +624,8 @@
     <MESSAGE value="Third MVV" />
     <MESSAGE value="Thesis" />
     <MESSAGE value="Updating server link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating server link" />
+    <MESSAGE value="Updating vis to latest version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating vis to latest version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -969,18 +972,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.375">
-          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js">
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39714867">
-          <caret line="80" column="53" selection-start-line="80" selection-start-column="53" selection-end-line="80" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.4070981">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding />
         </state>
       </provider>
