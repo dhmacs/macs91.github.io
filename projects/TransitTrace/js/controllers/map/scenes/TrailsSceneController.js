@@ -44,92 +44,6 @@ function TrailsSceneController() {
                 _needUpdate = false;
             } else {
                 computeScene(__model.getAnimationModel().getTime());
-/*
-                //var trips = d3.values(_trips);
-                var currentTime = __model.getAnimationModel().getTime();
-
-                var size = _geometryBuffer.attributes.size.array;
-                var position = _geometryBuffer.attributes.position.array;
-                var color = _geometryBuffer.attributes.customColor.array;
-                var opacity = _geometryBuffer.attributes.vertexOpacity.array;
-
-
-                var i = 0;
-                for(; i < size.length; i++) {
-                    if(size[i] == _headSize || size[i] == _metroHeadSize) {
-                        size[i] = _maxTrailSize;
-                    } else if(size[i] > _minTrailSize) {
-                        size[i] = size[i] - _decrementPerFrame;
-                    } else {
-                        size[i] = 0;
-                        opacity[i] = _maxOpacity;
-                    }
-                    opacity[i] = opacity[i] > _minOpacity ? opacity[i] - _deltaOpacity : _minOpacity;
-                }
-
-                for(var tripId in _trips) {
-                    var vehicleData = _trips[tripId];
-
-                    // Compute vehicle last stop
-                    var previousStopIndex = getLastStopIndex(currentTime, vehicleData["stops"]);
-
-                    // Compute relevance of the vehicle position (if not relevant then do not display it or use low opacity)
-                    var relevant = vehicleData["hop"] == 0 || (previousStopIndex +1) >= vehicleData["closestStopIndex"];
-                    //vehicleData["stops"][previousStopIndex +1]["relevant"];
-                        //relevant = relevant == undefined ? true : relevant;
-
-                    if(previousStopIndex > -1 && relevant) {
-                        // Compute next stop time in seconds
-                        var next = vehicleData["stops"][previousStopIndex +1]["arrivalTime"];
-                        next = Utils.toSeconds(next.hh, next.mm, next.ss);
-
-                        // Compute previous stop time in seconds
-                        var previous = vehicleData["stops"][previousStopIndex]["departureTime"];
-                        previous = Utils.toSeconds(previous.hh, previous.mm, previous.ss);
-
-                        // Compute time passed from the previous stop
-                        var delta = (currentTime - previous) / (next - previous);
-                        var lat = d3.interpolateNumber(
-                            parseFloat(vehicleData["stops"][previousStopIndex]["lat"]),
-                            parseFloat(vehicleData["stops"][previousStopIndex +1]["lat"])
-                        )(delta);
-                        var lon = d3.interpolateNumber(
-                            parseFloat(vehicleData["stops"][previousStopIndex]["lon"]),
-                            parseFloat(vehicleData["stops"][previousStopIndex +1]["lon"])
-                        )(delta);
-
-                        var projection = __model.getMapModel().project(lat, lon);
-
-                        i = 0;
-                        while(i < size.length && size[i] > 0) {
-                            i++;
-                        }
-
-                        if(vehicleData["type"] == 1) {
-                            size[i] = _metroHeadSize;
-                        } else {
-                            size[i] = _headSize;
-                        }
-
-                        position[i * 3] = projection.x;
-                        position[i * 3 +1] = projection.y;
-                        position[i * 3 +2] = 1;
-
-                        var tColor = new THREE.Color();
-
-                        if(vehicleData["color"] != undefined) {
-                            tColor.setStyle("#" + vehicleData["color"]);
-                        } else if(vehicleData["hop"] == 0) {
-                            tColor.setStyle("#3182bd");
-                        } else {
-                            tColor.setStyle("#95a5a6");
-                        }
-
-                        color[i * 3] = tColor.r;
-                        color[i * 3 +1] = tColor.g;
-                        color[i * 3 +2] = tColor.b;
-                    }
-                }*/
             }
 
             _geometryBuffer.attributes.position.needsUpdate = true;
@@ -300,26 +214,6 @@ function TrailsSceneController() {
         self.getScene().add(_mesh);
     };
 
-    /*
-    var getLastStopIndex = function(time, stops) {
-        var s = 0;
-        var stopTimeInSeconds;
-
-        while(s < stops.length) {
-            stopTimeInSeconds =
-                Utils.toSeconds(
-                    stops[s]["arrivalTime"]["hh"],
-                    stops[s]["arrivalTime"]["mm"],
-                    stops[s]["arrivalTime"]["ss"]
-                );
-            if(time < stopTimeInSeconds) {
-                return s -1;
-            }
-            s++;
-        }
-
-        return -1;
-    };*/
 
     var init = function () {
         __notificationCenter.subscribe(self, self.dataUpdated, Notifications.CTA.TRIPS_UPDATED);

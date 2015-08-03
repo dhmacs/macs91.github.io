@@ -120,12 +120,16 @@ Utils.gl.getTimeLabelMesh = function(text, color) {
 };
 
 Utils.gl.positionTextMesh = function(mesh, x, y) {
-    var textGeometry = mesh.geometry;
-    textGeometry.computeBoundingBox();
-    var deltaX = -0.5 * ( textGeometry.boundingBox.max.x - textGeometry.boundingBox.min.x );
-    var deltaY = 0.5 * ( textGeometry.boundingBox.max.y - textGeometry.boundingBox.min.y );
-    mesh.position.x = x + deltaX -1.5;
-    mesh.position.y = y + deltaY;
+    if(mesh != undefined) {
+        var textGeometry = mesh.geometry;
+        textGeometry.computeBoundingBox();
+        var deltaX = -0.5 * ( textGeometry.boundingBox.max.x - textGeometry.boundingBox.min.x );
+        var deltaY = 0.5 * ( textGeometry.boundingBox.max.y - textGeometry.boundingBox.min.y );
+        mesh.position.x = x + deltaX -1.5;
+        mesh.position.y = y + deltaY;
+    } else {
+        console.log("UNDEFINED MESH");
+    }
 };
 
 
