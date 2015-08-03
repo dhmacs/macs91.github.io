@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcb233c-452d-4169-9e07-461277e21ab3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="macs91.github.io.iws" />
@@ -25,21 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25">
+            <state vertical-scroll-proportion="0.4070981">
               <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationSceneController.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LocationSceneController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27494907">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DirectorViewController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -97,6 +106,7 @@
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapCanvasViewController.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js" />
       </list>
     </option>
   </component>
@@ -609,7 +619,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438606660727</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Updating vis to latest version">
+      <created>1438608802072</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1438608802072</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -979,14 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/view/UICanvasView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1003,14 +1011,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/VehiclesSceneController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1021,8 +1021,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/LocationSceneController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27494907">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/DirectorViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="79" selection-start-line="71" selection-start-column="79" selection-end-line="71" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4070981">
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding />
         </state>
       </provider>
