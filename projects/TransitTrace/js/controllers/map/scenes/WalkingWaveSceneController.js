@@ -16,6 +16,7 @@ function WalkingWaveSceneController() {
 
 
     // UI
+    var _distance = d3.scale.linear().range([50 * window.devicePixelRatio, 500 * window.devicePixelRatio]);
 
     /*------------------ PUBLIC METHODS ------------------*/
     /**
@@ -46,8 +47,8 @@ function WalkingWaveSceneController() {
         var start = __model.getAnimationModel().getStartTime();
         var end = __model.getAnimationModel().getEndTime();
 
-        var distance = d3.scale.linear().domain([start, end]).range([10, 1000]);
-        sizes[0] = distance(time);
+        _distance.domain([start, end]);
+        sizes[0] = _distance(time);
 
         var opacity = d3.scale.linear().domain([start, end]).range([0.15, 0.05]);
 
