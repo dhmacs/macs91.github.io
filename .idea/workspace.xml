@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfcb233c-452d-4169-9e07-461277e21ab3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js" afterPath="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="macs91.github.io.iws" />
@@ -24,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9694501">
+            <state vertical-scroll-proportion="0.0">
               <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UIAnimationTimeViewController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.44297352">
+              <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -91,6 +102,8 @@
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/UIMapViewController.js" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/index.html" />
         <option value="$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js" />
+        <option value="$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js" />
       </list>
     </option>
   </component>
@@ -404,7 +417,7 @@
     <property name="FullScreen" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="uimap&#9;null&#9;null&#10;uti&#9;FILE&#9;file:///Users/Macs/Desktop/macs91.github.io/projects/TransitTrace/js/utils/utils.js&#10;sn&#9;FILE&#9;file:///Users/Macs/Desktop/macs91.github.io/projects/mvv/snakes/snakes.js" />
+    <property name="SearchEverywhereHistoryKey" value="anima&#9;null&#9;null&#10;uimap&#9;null&#9;null&#10;uti&#9;FILE&#9;file:///Users/Macs/Desktop/macs91.github.io/projects/TransitTrace/js/utils/utils.js&#10;sn&#9;FILE&#9;file:///Users/Macs/Desktop/macs91.github.io/projects/mvv/snakes/snakes.js" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
@@ -585,7 +598,13 @@
       <option name="project" value="LOCAL" />
       <updated>1438606019046</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Updating vis to latest version">
+      <created>1438606115772</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1438606115772</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -638,20 +657,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/mvv/force/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/mvv/mvv-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/theme.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -986,10 +991,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/map/scenes/WalkTimeSceneController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4735234">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/utils/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9694501">
+        <state vertical-scroll-proportion="0.0">
           <caret line="119" column="2" selection-start-line="119" selection-start-column="2" selection-end-line="119" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/TransitTrace/js/controllers/overlay-views/UIAnimationTimeViewController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44297352">
+          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
           <folding />
         </state>
       </provider>

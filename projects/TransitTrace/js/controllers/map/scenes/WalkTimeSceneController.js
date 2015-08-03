@@ -30,11 +30,6 @@ function WalkTimeSceneController() {
      */
     this.update = function() {
         computeScene(__model.getAnimationModel().getTime());
-
-        //_geometryBuffer.attributes.position.needsUpdate = true;
-        //_geometryBuffer.attributes.customColor.needsUpdate = true;
-        //_geometryBuffer.attributes.size.needsUpdate = true;
-        //_geometryBuffer.attributes.vertexOpacity.needsUpdate = true;
     };
 
     /*------------------ PRIVATE METHODS -----------------*/
