@@ -74,6 +74,12 @@ Utils.gl.waveTexture = function() {
     return texture;
 };
 
+Utils.gl.walkIconTexture = function() {
+    var texture = THREE.ImageUtils.loadTexture( "img/man_walk.png" );
+    texture.minFilter = THREE.LinearFilter;
+    return texture;
+};
+
 Utils.gl.smileTexture = function() {
     var texture = THREE.ImageUtils.loadTexture( "img/smile.png" );
     texture.minFilter = THREE.LinearFilter;
