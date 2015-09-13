@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Filters</title>
+
+    <link rel="stylesheet" href="styles/normalize.css"/>
+    <link rel="stylesheet" href="styles/style.css"/>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/TweenMax.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+<div class="menu">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <div class="menu-wrapper">
+        <ul class="menu-items">
+            <li class="menu-item">
+                <button class="menu-item-button">
+                    <i class="menu-item-icon icon icon-reply"></i>
+                </button>
+                <div class="menu-item-bounce"></div>
+            </li>
+            <li class="menu-item">
+                <button class="menu-item-button">
+                    <i class="menu-item-icon icon icon-box"></i>
+                </button>
+                <div class="menu-item-bounce"></div>
+            </li>
+            <li class="menu-item">
+                <button class="menu-item-button">
+                    <i class="menu-item-icon icon icon-trash"></i>
+                </button>
+                <div class="menu-item-bounce"></div>
+            </li>
+        </ul>
+        <button class="menu-toggle-button">
+            <i class="fa fa-plus menu-toggle-icon"></i>
+        </button>
+    </div>
+</div>
+</body>
+</html>
